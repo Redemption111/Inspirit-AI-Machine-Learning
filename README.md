@@ -9,4 +9,4 @@ Word Embedding
 Neural Network
 Convolutional Neural Networks
 
-Paper on Neural Networks w/ Sliding window Algorithms and YOLOv3 [here]
+Paper on [Neural Networks w/ Sliding window Algorithms and YOLOv3](https://docs.google.com/document/d/1CiUnPSdDkSrfAgqrQUvfxQ-J1CTWGE-q0D89I4sQ2j8/edit#heading=h.gjdgxs)
