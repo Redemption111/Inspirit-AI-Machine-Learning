@@ -174,4 +174,5 @@ YOLO, COCO, and related assets remain under their respective licenses.
 ## Author
 
 **Tristan Ng**
+
 Machine Learning • Computer Vision • AI Research
