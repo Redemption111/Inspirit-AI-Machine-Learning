@@ -1,5 +1,12 @@
 # Inspirit AI Machine Learning
 
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-orange)
+![YOLOv3](https://img.shields.io/badge/Model-YOLOv3-red)
+![GPU](https://img.shields.io/badge/Acceleration-CUDA%20GPU-green)
+
+---
+
 ## Topics Covered
 
 Through Inspirit AI, I explored both theoretical foundations and hands-on implementations of machine learning:
@@ -13,6 +20,15 @@ Through Inspirit AI, I explored both theoretical foundations and hands-on implem
 * Word Embeddings
 * Neural Networks
 * Convolutional Neural Networks (CNNs)
+
+---
+
+## Research Paper
+
+I also authored a technical paper expanding on the ideas behind object detection:
+
+**Neural Networks with Sliding Window Algorithms and YOLOv3**
+👉 [Read the paper](https://docs.google.com/document/d/1CiUnPSdDkSrfAgqrQUvfxQ-J1CTWGE-q0D89I4sQ2j8/edit#heading=h.gjdgxs)
 
 ---
 
@@ -99,10 +115,25 @@ tf.test.gpu_device_name()
 
 ---
 
+## Repository Structure
+
+The repository contains the following key files:
+
+```
+├── README.md                     # Project documentation
+├── Real-time object detection.py # Main YOLOv3 webcam inference script
+├── Neural Net Image Processing.py# Image-based object detection utilities
+├── Final Video.mp4               # Demo video showcasing real-time detection
+```
+
+Each script reflects different stages of experimentation with neural networks and computer vision, ranging from static image inference to live webcam-based detection.
+
+---
+
 ## Running the Program
 
 ```bash
-python object_detection.py
+python Real-time\ object\ detection.py
 ```
 
 * The webcam will activate and perform real-time object detection
